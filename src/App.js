@@ -14,6 +14,7 @@ import Navbar from "./components/Navbar/Navbar.component";
 import Carousel from "./components/Carousel/Carousel.component";
 import TitleMsg from "./components/TitleMsg/TitleMsg.component";
 import About from "./pages/About/About.component";
+import Skills from "./pages/Skills/Skills.component";
 
 function App() {
   return (
@@ -37,6 +38,15 @@ function App() {
             </Container>
           </div>
         </Parallax>
+      </div>
+      {/* Skills */}
+
+      <div>
+        <div>
+          <Container className="container-box rounded">
+            <Skills />
+          </Container>
+        </div>
       </div>
     </div>
   );
