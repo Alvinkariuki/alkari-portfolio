@@ -9,7 +9,7 @@ import Slide3 from "../../assets/imgs/carousal/slide3.webp";
 // Component Import
 import ScrollDown from "../ScrollDown/ScrollDown.component";
 
-// Style
+
 import "./style.css";
 
 const MyCarousel = () => {
