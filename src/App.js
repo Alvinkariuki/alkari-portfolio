@@ -15,6 +15,7 @@ import Carousel from "./components/Carousel/Carousel.component";
 import TitleMsg from "./components/TitleMsg/TitleMsg.component";
 import About from "./pages/About/About.component";
 import Skills from "./pages/Skills/Skills.component";
+import ProjectTimeline from "./components/ProjectTimeline/ProjectTimeline.component";
 
 function App() {
   return (
@@ -48,6 +49,8 @@ function App() {
           </Container>
         </div>
       </div>
+
+      <ProjectTimeline />
     </div>
   );
 }

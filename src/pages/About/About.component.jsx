@@ -39,7 +39,7 @@ const About = () => {
                  Currently in my 4th year in Strathmore University pursuing my BSC in Computer Science.
                 <br />
 
-                <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
+                <br />I love learning about new technologies, what problems are they solving and How I can use them to build better and scalable products.
                 <br /> <br />
           </Row>
 

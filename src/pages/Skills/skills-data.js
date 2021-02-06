@@ -18,9 +18,12 @@ import ReactRouterIcon from "../../assets/imgs/skills/react-router.svg";
 import ReactBootstrapIcon from "../../assets/imgs/skills/react-bootstrap.svg";
 import FlaskIcon from "../../assets/imgs/skills/flask.svg";
 import LaravelIcon from "../../assets/imgs/skills/laravel.svg";
-import GithubIcon from "../../assets/imgs/skills/github-api.svg";
+import GithubIcon from "../../assets/imgs/skills/github.svg";
 import SqliteIcon from "../../assets/imgs/skills/sqlite.svg";
 import GitIcon from "../../assets/imgs/skills/git-icon.svg";
+import PythonAnywhereIcon from "../../assets/imgs/skills/pythonanywhere.svg";
+import ReplitIcon from "../../assets/imgs/skills/replit.svg";
+import TwilioIcon from "../../assets/imgs/skills/twilio.svg";
 
 export const skills = {
   frontend: [
@@ -143,6 +146,27 @@ export const skills = {
       imgAltText: "Github",
       imgSrc: GithubIcon,
       skillName: "Github",
+    },
+
+    {
+      link: "https://www.pythonanywhere.com/",
+      imgAltText: "PythonAnywhere",
+      imgSrc: PythonAnywhereIcon,
+      skillName: "PythonAnywhere",
+    },
+
+    {
+      link: "https://repl.it/",
+      imgAltText: "Repl.it",
+      imgSrc: ReplitIcon,
+      skillName: "Repl.it",
+    },
+
+    {
+      link: "https://twilio.com/",
+      imgAltText: "Twilio",
+      imgSrc: TwilioIcon,
+      skillName: "Twilio",
     },
   ],
 
